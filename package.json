@@ -1,0 +1,32 @@
+{
+  "name": "api-teste",
+  "version": "1.0.0",
+  "description": "Teste de uma api com cypress",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^9.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-import": "^2.25.4",
+    "husky": "^7.0.4"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "lint:fix": "eslint cypress/ --fix",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaocosti/api-teste.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaocosti/api-teste/issues"
+  },
+  "homepage": "https://github.com/joaocosti/api-teste#readme"
+}

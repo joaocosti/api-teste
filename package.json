@@ -11,13 +11,13 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-import": "^2.25.4",
-    "husky": "^7.0.4"
+    "husky": "^7.0.4",
+    "node": "^14.0.0"
   },
   "scripts": {
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "lint:fix": "eslint cypress/ --fix",
-    "prepare": "husky install"
+    "lint:fix": "eslint cypress/ --fix"
   },
   "repository": {
     "type": "git",
